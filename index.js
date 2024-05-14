@@ -8,7 +8,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // * Please DO NOT INCLUDE the private app access token in your repo. Don't do this practicum in your normal account.
-const PRIVATE_APP_ACCESS = 'pat-na1-4fa06d4e-85c5-4b9b-84da-2db323e26dc0';
+
+const PRIVATE_APP_ACCESS = 'MY_TOKEN';
 
 // Render the update page and pass the email value to the template
 app.get('/update', (req, res) => {
